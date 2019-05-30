@@ -1,0 +1,277 @@
+.header {
+	border-bottom: 2px solid #ECECEC;
+}
+.container {
+	width: 1170px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.clearfix::before, .clearfix::after, .container::before, .container::after{
+	display: table;
+	content: " ";
+}
+.clearfix::after, .container::after{
+    clear: both;
+}
+.logo {
+	float: left;
+	margin-top: -2em;
+}
+a {
+	color: #1B242F;
+	text-decoration: none;
+	background: transparent;
+}
+img {
+	vertical-align: middle;
+	width:100px;
+	border: 0;
+}
+.top-list {
+	float: right;
+}
+.top-list ul {
+	margin: 0;
+	padding: 0;
+}
+.top-list ul li {
+	display: inline-block;
+	float: left;
+}
+.top-list ul li.active a {
+	color: #e74c3c;
+}
+.top-list ul li a {
+	color: #747474;
+	font-weight: 900;
+	padding: 1.8em 1.3em;
+	display: block;
+	text-decoration: none;
+	border: 1px solid #EEE;
+	border-right: none;
+	border-bottom: none;
+	text-transform: uppercase;
+	font-size: 0.875em;
+	position: relative;
+}
+.top-list ul li.active a span {
+	background: #e74c3c;
+	width: 100%;
+	height: 1px;
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.main {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+.main li:first-child {
+	position: relative;
+	display: block;
+	float: left;
+}
+.main li {
+	-webkit-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+}
+.main img {
+	height: auto;
+	border: 0;
+	width: 100%;
+}
+
+.img-responsive {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.main-cover {
+	position: absolute;
+	z-index: 999;
+	left: 0%;
+	top: 0%;
+	background: rgba(231, 76, 60, 0.87);
+	padding: 1em;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+.main-cover-inner {
+	margin: 9em auto 0 auto;
+	width: 50%;
+	margin: 11em auto 0 auto;
+}
+.main-cover h1 {
+	font-weight: 700;
+	font-size: 4em;
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+}
+h1 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+}
+.main-cover h1 span {
+	color: #e74c3c;
+}
+.main-cover p {
+	color: #FFF;
+	font-weight: 100;
+	font-size: 1.6em;
+	line-height: 1.6em;
+	margin: 0.8em 0 0.3em;
+}
+.content {
+	padding: 1.5em 0 5em 0;
+}
+
+.template-4 {
+	width: 66%;
+}
+ .template-2, .template-4 {
+	float: left;
+	position: relative;
+	min-height: 1px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.artical {
+	border: 1px solid #EEE;
+	padding: 1em 0;
+	margin-bottom: 1em;
+}
+* {
+	box-sizing: border-box;
+}
+.template-2 {
+	width: 33%;
+}
+
+.artical-left img {
+	width: 100%;
+	display: block;
+}
+
+.artical-head {
+	padding: 0em 0 3em;
+}
+
+.recent-add h2 {
+	border: 1px solid #EEE;
+	padding: 0.7em 0.5em;
+	display: block;
+	font-size: 1.2em;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #747474;
+}
+h2 {
+	font-family: inherit;
+	font-weight: 500;
+	line-height: 1.1;
+	color: inherit;
+	font-size: 30px;
+}
+.recent-add {
+ padding: 19px;
+ margin-bottom: 20px;
+ background-color: #f5f5f5;
+}
+.recent-add img{
+	width: 330px;
+	
+
+}
+.artical-head h2 {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+
+.artical-right h2 a {
+	color: #747474;
+	font-size: 0.8em;
+	text-decoration: none;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.artical-info p {
+	margin: 0;
+	padding: 0.4em 0;
+	font-size: 0.875em;
+	color: #747474;
+}
+.artical-info p strong {
+	color: #747474;
+	margin-right: 0.25em;
+}
+b, strong {
+	font-weight: bold;
+}
+
+.text-center {
+	text-align: center;
+}
+html, body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 100%;
+}
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333;
+}
+html {
+	font-size: 62.5%;
+}
+html {
+	font-family: sans-serif;
+	-webkit-text-size-adjust: 100%;
+}
+
+.content-left {
+	padding-left: 0;
+}
+.content-right {
+	padding-right: 0px;
+}
+.to-top {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	z-index: 0;
+	font-size: .8rem;
+	padding-right: 3rem;
+}
+.to-top div {
+	display: block;
+	max-width: 72.25rem;
+	margin: 0 auto;
+	text-align: right;
+	padding: .5rem 0;
+}
+.to-top a {
+	color: #a3841f;
+}
+.to-top a::after {
+	content: "↑";
+	margin-left: .5em;
+}
